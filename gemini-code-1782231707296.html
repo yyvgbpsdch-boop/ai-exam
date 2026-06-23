@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生成AI・人工知能基礎 対策問題集</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #fff;
+            padding: 40px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+            font-weight: 700;
+        }
+        header p {
+            margin: 10px 0 0 0;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .section-card {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            border-left: 5px solid #2a5298;
+        }
+        .section-card h2 {
+            margin-top: 0;
+            color: #1e3c72;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #f0f0f0;
+            padding-bottom: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #eef2f5;
+        }
+        th {
+            background-color: #f8fafc;
+            color: #4a5568;
+            font-weight: 600;
+            text-transform: uppercase;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+        }
+        tr:hover {
+            background-color: #f8fafc;
+        }
+        .col-num {
+            width: 8%;
+            text-align: center;
+            font-weight: bold;
+            color: #718096;
+        }
+        .col-text {
+            width: 62%;
+        }
+        .col-ans {
+            width: 30%;
+        }
+        details {
+            background-color: #f0f4f8;
+            border-radius: 5px;
+            padding: 6px 10px;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+        details[open] {
+            background-color: #e1e8f0;
+        }
+        summary {
+            font-size: 0.9rem;
+            color: #2a5298;
+            font-weight: bold;
+            outline: none;
+            user-select: none;
+        }
+        .ans-text {
+            margin-top: 5px;
+            color: #d9534f;
+            font-weight: bold;
+            font-size: 1rem;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #718096;
+        }
+        @media (max-width: 768px) {
+            th, td {
+                padding: 8px 10px;
+            }
+            header h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>生成AI・人工知能基礎 対策問題集</h1>
+        <p>確認テスト・定期試験対策用Webアプリ（クリックで解答が確認できます）</p>
+    </header>
+
+    <div class="section-card">
+        <h2>第1回・第2回 生成AIとプロンプトエンジニアリング</h2>
+        <table>
+            <thead>
+                <tr><th class="col-num">問</th><th class="col-text">問題文</th><th class="col-ans">解答</th></tr>
+            </thead>
+            <tbody>
+                <tr><td class="col-num">1</td><td class="col-text">人工知能によって生成された虚偽または誤解を招く情報を事実のように提示する現象を（ &nbsp; &nbsp; ）という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">ハルシネーション</div></details></td></tr>
+                <tr><td class="col-num">2</td><td class="col-text">生成AIの出力結果は必ず正しいとは限らないため、人間が（ &nbsp; &nbsp; ）を行うことが重要である。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">ファクトチェック</div></details></td></tr>
+                <tr><td class="col-num">3</td><td class="col-text">生成AIに個人情報や機密情報を入力すると、（ &nbsp; &nbsp; ）の危険がある。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">情報漏洩</div></details></td></tr>
+                <tr><td class="col-num">4</td><td class="col-text">生成AIの回答生成過程は内部が見えにくく、（ &nbsp; &nbsp; ）であるといわれる。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">ブラックボックス</div></details></td></tr>
+                <tr><td class="col-num">5</td><td class="col-text">AIによって作られた、本物と見分けがつきにくい偽の画像や動画を（ &nbsp; &nbsp; ）という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">ディープフェイク</div></details></td></tr>
+                <tr><td class="col-num">6</td><td class="col-text">AIから望ましい出力を得るために、適切な指示文を設計することを（ &nbsp; &nbsp; ）エンジニアリングという。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">プロンプト</div></details></td></tr>
+                <tr><td class="col-num">7</td><td class="col-text">外部データベースを利用して回答精度を向上させる手法をアルファベット3文字で（ &nbsp; &nbsp; ）という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">RAG</div></details></td></tr>
+                <tr><td class="col-num">8</td><td class="col-text">LLMの基本的処理は、入力された（ &nbsp; &nbsp; ）に続くものを予測することである。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">トークン</div></details></td></tr>
+                <tr><td class="col-num">9</td><td class="col-text">事前学習後、特定のタスク向けに追加学習することを（ &nbsp; &nbsp; ）という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">ファインチューニング</div></details></td></tr>
+                <tr><td class="col-num">10</td><td class="col-text">画像や音声など複数の種類のデータを扱えるLLMを（ &nbsp; &nbsp; ）LLMという。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">マルチモーダル</div></details></td></tr>
+                <tr><td class="col-num">11</td><td class="col-text">GPTの「T」は（ &nbsp; &nbsp; ）の略である。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">Transformer</div></details></td></tr>
+                <tr><td class="col-num">12</td><td class="col-text">LLMが直接教えられていないタスクにも対応できる能力を（ &nbsp; &nbsp; ）能力という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">創発的</div></details></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section-card">
+        <h2>第3回 生成AIの仕組み</h2>
+        <table>
+            <thead>
+                <tr><th class="col-num">問</th><th class="col-text">問題文</th><th class="col-ans">解答</th></tr>
+            </thead>
+            <tbody>
+                <tr><td class="col-num">13</td><td class="col-text">単語や文章を高次元の数値ベクトルに変換することを（ &nbsp; &nbsp; ）という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">埋め込み (Embedding)</div></details></td></tr>
+                <tr><td class="col-num">14</td><td class="col-text">Transformerにおいて、文中のどこに注目すべきかを決定する仕組みを（ &nbsp; &nbsp; ）機構という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">Attention</div></details></td></tr>
+                <tr><td class="col-num">15</td><td class="col-text">上記の機構で用いられる3つのベクトルは、Query、Key、（ &nbsp; &nbsp; ）である。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">Value</div></details></td></tr>
+                <tr><td class="col-num">16</td><td class="col-text">QueryとKeyの類似度を求めるために利用される尺度の一つは（ &nbsp; &nbsp; ）類似度である。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">コサイン</div></details></td></tr>
+                <tr><td class="col-num">17</td><td class="col-text">Transformerでは複数のAttentionを並列に用いる（ &nbsp; &nbsp; ）Attentionが採用されている。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">Multi-Head</div></details></td></tr>
+                <tr><td class="col-num">18</td><td class="col-text">Transformerは従来のRNNに比べて（ &nbsp; &nbsp; ）処理が可能である。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">並列</div></details></td></tr>
+                <tr><td class="col-num">19</td><td class="col-text">GPTなどのLLMは、次に現れるトークンを（ &nbsp; &nbsp; ）的に予測して文章を生成する。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">確率</div></details></td></tr>
+                <tr><td class="col-num">20</td><td class="col-text">概念間の関係性を表現するベクトル演算の例として、「king - man + woman = （ &nbsp; &nbsp; ）」が有名である。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">queen</div></details></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section-card">
+        <h2>第4回 脳のモデル・ニューラルネットワーク</h2>
+        <table>
+            <thead>
+                <tr><th class="col-num">問</th><th class="col-text">問題文</th><th class="col-ans">解答</th></tr>
+            </thead>
+            <tbody>
+                <tr><td class="col-num">21</td><td class="col-text">入力の重み付き和がしきい値を超えたとき1を出力する関数を（ &nbsp; &nbsp; ）関数または階段関数という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">ヘヴィサイド</div></details></td></tr>
+                <tr><td class="col-num">22</td><td class="col-text">畳み込みニューラルネットワークの原型である「ネオコグニトロン」を提案した日本人研究者は（ &nbsp; &nbsp; ）である。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">福島邦彦</div></details></td></tr>
+                <tr><td class="col-num">23</td><td class="col-text">入力と正解との誤差を小さくするように重みを更新していく手法を（ &nbsp; &nbsp; ）降下法という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">勾配</div></details></td></tr>
+                <tr><td class="col-num">24</td><td class="col-text">誤差を出力層から入力層へ逆向きに伝えて重みを更新する方法を（ &nbsp; &nbsp; ）法という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">誤差逆伝搬 (バックプロパゲーション)</div></details></td></tr>
+                <tr><td class="col-num">25</td><td class="col-text">現在の深層学習でよく用いられる、入力が0より大きい場合はそのまま出力し、0以下の場合は0を出力する活性化関数は（ &nbsp; &nbsp; ）関数である。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">ReLU</div></details></td></tr>
+                <tr><td class="col-num">26</td><td class="col-text">シグモイド関数の出力値は（ &nbsp; &nbsp; ）から1の間をとる。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">0</div></details></td></tr>
+                <tr><td class="col-num">27</td><td class="col-text">大量のデータから特徴量を自動的に獲得する学習を（ &nbsp; &nbsp; ）学習という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">表現</div></details></td></tr>
+                <tr><td class="col-num">28</td><td class="col-text">2012年の画像認識コンペティションで優勝し、深層学習ブームのきっかけとなったネットワークは（ &nbsp; &nbsp; ）である。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">AlexNet</div></details></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section-card">
+        <h2>第5回 AIの歴史・知識表現</h2>
+        <table>
+            <thead>
+                <tr><th class="col-num">問</th><th class="col-text">問題文</th><th class="col-ans">解答</th></tr>
+            </thead>
+            <tbody>
+                <tr><td class="col-num">29</td><td class="col-text">「人工知能」という名称が正式に使われるようになった1956年の会議を（ &nbsp; &nbsp; ）会議という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">ダートマス</div></details></td></tr>
+                <tr><td class="col-num">30</td><td class="col-text">1970〜1980年代に発展した、人間の専門家の知識を利用して問題解決を行うシステムを（ &nbsp; &nbsp; ）システムという。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">エキスパート</div></details></td></tr>
+                <tr><td class="col-num">31</td><td class="col-text">上位概念と下位概念の関係を表し、性質の継承を行うネットワーク状の知識表現を（ &nbsp; &nbsp; ）ネットワークという。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">意味</div></details></td></tr>
+                <tr><td class="col-num">32</td><td class="col-text">Minskyが提唱した、個々の事例や共通の性質をまとめて記述する知識表現を（ &nbsp; &nbsp; ）表現という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">フレーム</div></details></td></tr>
+                <tr><td class="col-num">33</td><td class="col-text">上記の表現において、確定していないが仮に与えられる推定値を（ &nbsp; &nbsp; ）値という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">デフォルト</div></details></td></tr>
+                <tr><td class="col-num">34</td><td class="col-text">意味ネットワークで、「鳥」と「すずめ」のように上位・下位の概念をつなぐリンクを（ &nbsp; &nbsp; ）リンクという。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">is-a</div></details></td></tr>
+                <tr><td class="col-num">35</td><td class="col-text">意味ネットワークで、「鳥」と「羽」のように包含関係を表すリンクを（ &nbsp; &nbsp; ）リンクという。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">has-a</div></details></td></tr>
+                <tr><td class="col-num">36</td><td class="col-text">IF-THENの形式で知識を表現する規則を（ &nbsp; &nbsp; ）ルールという。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">プロダクション</div></details></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section-card">
+        <h2>第6回・第8回 推論と未来のAI</h2>
+        <table>
+            <thead>
+                <tr><th class="col-num">問</th><th class="col-text">問題文</th><th class="col-ans">解答</th></tr>
+            </thead>
+            <tbody>
+                <tr><td class="col-num">37</td><td class="col-text">パースによる推論の三分類は、演繹、帰納、（ &nbsp; &nbsp; ）である。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">アブダクション</div></details></td></tr>
+                <tr><td class="col-num">38</td><td class="col-text">前提に含まれている情報を論理的に導き出し、新しい知識は生まれない推論を（ &nbsp; &nbsp; ）という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">演繹</div></details></td></tr>
+                <tr><td class="col-num">39</td><td class="col-text">個別の経験から一般的な規則性を導き出す推論を（ &nbsp; &nbsp; ）という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">帰納</div></details></td></tr>
+                <tr><td class="col-num">40</td><td class="col-text">驚くべき事実を説明するために、目に見えないメカニズムなどの仮説を立てる推論を（ &nbsp; &nbsp; ）という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">アブダクション</div></details></td></tr>
+                <tr><td class="col-num">41</td><td class="col-text">記号から記号へ意味をたどるだけではAIが本当の意味理解に至れないという問題を（ &nbsp; &nbsp; ）問題という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">記号接地</div></details></td></tr>
+                <tr><td class="col-num">42</td><td class="col-text">人間が経験を一般化・抽象化して作った暗黙の知識であり、思考の省エネに役立つものを（ &nbsp; &nbsp; ）という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">スキーマ</div></details></td></tr>
+                <tr><td class="col-num">43</td><td class="col-text">自分の仮説に都合の良い情報ばかりを集めてしまう人間の思考の偏りを（ &nbsp; &nbsp; ）バイアスという。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">確証</div></details></td></tr>
+                <tr><td class="col-num">44</td><td class="col-text">「もしAならばB」を表す論理演算を（ &nbsp; &nbsp; ）という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">含意</div></details></td></tr>
+                <tr><td class="col-num">45</td><td class="col-text">既知の事実から順番に推論していく方法を（ &nbsp; &nbsp; ）推論という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">前向き</div></details></td></tr>
+                <tr><td class="col-num">46</td><td class="col-text">欲しい定理の否定形から矛盾を導き出すことで、元の定理が真であることを証明する推論原理を（ &nbsp; &nbsp; ）原理という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">導出</div></details></td></tr>
+                <tr><td class="col-num">47</td><td class="col-text">複数の論理式を「かつ」で結んだ形を（ &nbsp; &nbsp; ）標準形という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">連言</div></details></td></tr>
+                <tr><td class="col-num">48</td><td class="col-text">推論の根拠となる、あらかじめ与えられた知識や情報を（ &nbsp; &nbsp; ）という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">公理</div></details></td></tr>
+                <tr><td class="col-num">49</td><td class="col-text">インターネット上のデータだけでなく、ロボットのように身体を持って実世界で動くAIのことを（ &nbsp; &nbsp; ）AIという。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">フィジカル</div></details></td></tr>
+                <tr><td class="col-num">50</td><td class="col-text">現実世界の物理空間をデジタル空間に再現し、AIの学習やシミュレーションに活用する仕組みを（ &nbsp; &nbsp; ）という。</td><td class="col-ans"><details><summary>解答を見る</summary><div class="ans-text">デジタルツイン</div></details></td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section-card">
+        <h2>【論述問題】 基礎理解の確認</h2>
+        <table>
+            <thead>
+                <tr><th class="col-num">問</th><th class="col-text">問題文</th><th class="col-ans">解答のポイント</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="col-num">1</td>
+                    <td class="col-text">ハルシネーションにおける「内因性」と「外因性」の違いを、「学習データ」という言葉を用いて説明せよ。</td>
+                    <td class="col-ans">
+                        <details>
+                            <summary>解答を見る</summary>
+                            <div class="ans-text">内因性ハルシネーションは学習データと異なる矛盾した出力をする現象であり、外因性ハルシネーションは学習データに存在しない事実無根の情報を出力する現象である。</div>
+                        </details>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-num">2</td>
+                    <td class="col-text">深層学習の誤差逆伝搬法において、活性化関数としてシグモイド関数よりもReLU関数がよく使われる理由を、「勾配」という言葉を用いて説明せよ。</td>
+                    <td class="col-ans">
+                        <details>
+                            <summary>解答を見る</summary>
+                            <div class="ans-text">シグモイド関数は層が深くなると誤差を逆伝搬する際に勾配が消失しやすく学習が進まなくなる問題があるが、ReLU関数は入力が正であれば勾配が1となるため、勾配消失を防ぎ効率的に学習できるため。</div>
+                        </details>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-num">3</td>
+                    <td class="col-text">パースの推論の三分類（演繹・帰納・アブダクション）の違いについて、それぞれの推論から「新しい知識」が得られるかどうかの観点を含めて説明せよ。</td>
+                    <td class="col-ans">
+                        <details>
+                            <summary>解答を見る</summary>
+                            <div class="ans-text">演繹は前提から必然的な結論を導くため新しい知識は生まれない。帰納は個別の経験から一般的な規則性を導き出し知識を拡張する。アブダクションは結果から目に見えない原因や仮説を発見・形成する推論であり、科学的発見など新たな知識の創造につながる。</div>
+                        </details>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-num">4</td>
+                    <td class="col-text">古典的AIにおける論理の推論手法である「前向き推論」と「後ろ向き推論」の処理順序の違いを説明せよ。</td>
+                    <td class="col-ans">
+                        <details>
+                            <summary>解答を見る</summary>
+                            <div class="ans-text">前向き推論は既にわかっている公理から順番にルールを適用して目標とする定理を導き出す手法。一方、後ろ向き推論は欲しい定理をスタート地点とし、そこから逆に推論を行って公理や矛盾を導く（導出原理など）手法である。</div>
+                        </details>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-num">5</td>
+                    <td class="col-text">デジタルツインの仕組みと、それがロボットなどの「フィジカルAI」の学習にどのように役立つか説明せよ。</td>
+                    <td class="col-ans">
+                        <details>
+                            <summary>解答を見る</summary>
+                            <div class="ans-text">デジタルツインは現実世界の物理空間を仮想空間にデジタルコピーとして再現する仕組み。実世界でロボットに学習させると危険やコストを伴うが、仮想空間で安全かつ大量にシミュレーション学習を行い、その結果を実機にフィードバックできるためフィジカルAIの発展に役立つ。</div>
+                        </details>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>
+
+<div class="footer">
+    <p>&copy; 2026 生成AI・人工知能基礎 対策問題集</p>
+</div>
+
+</body>
+</html>
